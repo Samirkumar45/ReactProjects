@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import ErrorBoundary from './Components/ErrorBoundary';
-import Hero from './Components/Hero';
+import ClickCounter from './Components/ClickCounter';
+// import ErrorBoundary from './Components/ErrorBoundary';
+// import Hero from './Components/Hero';
+import HoverCounter from './Components/HoverCounter';
 // import Portal2 from './Components/Portal2';
 // import PortalDemo from './Components/PortalDemo';
 // import RefsOlds from './Components/refsDemo';
@@ -31,7 +33,7 @@ function App() {
       {/* <Portal2 /> */}
       {/* <PortalDemo /> */}
 
-      <ErrorBoundary>
+      {/* <ErrorBoundary>
         <Hero heroname='Batman'></Hero>
       </ErrorBoundary>
       <ErrorBoundary>
@@ -39,7 +41,11 @@ function App() {
       </ErrorBoundary>
       <ErrorBoundary>
         <Hero heroname='Joker'></Hero>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
+
+      <HoverCounter />
+      <ClickCounter />
+      
     </div>
   );
 }
