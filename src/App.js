@@ -1,9 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-import ClickCounter from './Components/ClickCounter';
+// import ClickCounter from './Components/ClickCounter';
 // import ErrorBoundary from './Components/ErrorBoundary';
 // import Hero from './Components/Hero';
-import HoverCounter from './Components/HoverCounter';
+// import HoverCounter from './Components/HoverCounter';
+import Counter from './Components/Counter';
+import HoverCounter2 from './Components/HoverCounter2';
+import ClickCounter2 from './Components/ClickCounter2';
 // import Portal2 from './Components/Portal2';
 // import PortalDemo from './Components/PortalDemo';
 // import RefsOlds from './Components/refsDemo';
@@ -43,9 +46,19 @@ function App() {
         <Hero heroname='Joker'></Hero>
       </ErrorBoundary> */}
 
-      <HoverCounter />
-      <ClickCounter />
-      
+      {/* <HoverCounter />
+      <ClickCounter /> */}
+
+      <Counter
+        render={(count, increamentCount) => (
+          <ClickCounter2 count={count} increamentCount={increamentCount} />
+        )}
+      />
+      <Counter
+        render={(count, increamentCount) => (
+          <HoverCounter2 count={count} increamentCount={increamentCount} />
+        )}
+      />
     </div>
   );
 }
