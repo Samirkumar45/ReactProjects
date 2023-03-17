@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import ClassMouse from './Components/ClassMouse';
+// import ClassMouse from './Components/ClassMouse';
+import MouseContainer from './Components/MouseContainer';
 // import ClassCounterOne from './Components/ClassCounterOne';
 // import HookCounterOne from './Hookfunctions/HookCounterOne';
 // import HookMouse from './Hookfunctions/HookMouse';
@@ -69,7 +70,8 @@ function App() {
       {/* <ClassCounterOne /> */}
       {/* <HookCounterOne /> */}
       {/* <HookMouse /> */}
-      <ClassMouse />
+      {/* <ClassMouse /> */}
+      <MouseContainer />
     </div>
   );
 }
