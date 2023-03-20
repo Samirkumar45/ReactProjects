@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
+// import DataFatching from './Components/DataFatching';
 // import ClassMouse from './Components/ClassMouse';
-import MouseContainer from './Components/MouseContainer';
+import DataFatching2 from './Components/DataFatching2';
+// import MouseContainer from './Components/MouseContainer';
 // import ClassCounterOne from './Components/ClassCounterOne';
 // import HookCounterOne from './Hookfunctions/HookCounterOne';
 // import HookMouse from './Hookfunctions/HookMouse';
@@ -71,7 +73,9 @@ function App() {
       {/* <HookCounterOne /> */}
       {/* <HookMouse /> */}
       {/* <ClassMouse /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      {/* <DataFatching /> */}
+      <DataFatching2 />
     </div>
   );
 }
