@@ -2,7 +2,8 @@
 import './App.css';
 // import DataFatching from './Components/DataFatching';
 // import ClassMouse from './Components/ClassMouse';
-import DataFatching2 from './Components/DataFatching2';
+// import DataFatching2 from './Components/DataFatching2';
+// import DataFatching3 from './Components/DataFatching3';
 // import MouseContainer from './Components/MouseContainer';
 // import ClassCounterOne from './Components/ClassCounterOne';
 // import HookCounterOne from './Hookfunctions/HookCounterOne';
@@ -75,7 +76,9 @@ function App() {
       {/* <ClassMouse /> */}
       {/* <MouseContainer /> */}
       {/* <DataFatching /> */}
-      <DataFatching2 />
+      {/* <DataFatching2 
+      /> */}
+      {/* <DataFatching3 /> */}
     </div>
   );
 }
