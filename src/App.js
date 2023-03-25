@@ -6,7 +6,7 @@ import './App.css';
 // import DataFatching3 from './Components/DataFatching3';
 // import MouseContainer from './Components/MouseContainer';
 // import ClassCounterOne from './Components/ClassCounterOne';
-// import HookCounterOne from './Hookfunctions/HookCounterOne';
+import HookCounterOne from './Hookfunctions/HookCounterOne';
 // import HookMouse from './Hookfunctions/HookMouse';
 // import ClickCounter from './Components/ClickCounter';
 // import ErrorBoundary from './Components/ErrorBoundary';
@@ -71,7 +71,7 @@ function App() {
 
       {/* <HookCounter4 /> */}
       {/* <ClassCounterOne /> */}
-      {/* <HookCounterOne /> */}
+      <HookCounterOne />
       {/* <HookMouse /> */}
       {/* <ClassMouse /> */}
       {/* <MouseContainer /> */}
