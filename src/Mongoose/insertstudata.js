@@ -27,4 +27,15 @@ app.put('/update/:_id', async (req, res) => {
   let data = await student.updateOne(req.params, { $set: req.body });
   res.send(data);
 });
+
+app.get('/search/:key', async (req, res) => {
+  console.log(req.params.key);
+  let data = await student.find({
+    $or: [
+      { stname: { $regex: req.params.key } },
+      { stcity: { $regex: req.params.key } },
+    ],
+  });
+  res.send(data);
+});
 app.listen(3000);
